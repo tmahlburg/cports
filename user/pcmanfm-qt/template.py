@@ -15,6 +15,9 @@ makedepends = [
     "menu-cache-devel",
     "qt6-qttools-devel",
 ]
+depends = [
+    "lxqt-menu-data",
+]
 pkgdesc = "File manager and desktop icon manager"
 license = "GPL-2.0-or-later"
 url = "https://github.com/lxqt/pcmanfm-qt"
